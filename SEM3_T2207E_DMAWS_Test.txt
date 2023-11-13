@@ -1,0 +1,7 @@
+1.(5 points) Based on the chart above, analyze the problem from the perspective of a software developer, choosing technology to meet user needs that increase or decrease over time while saving construction costs to build, operating and maintain systems for 
+businesses. Give at least 3 reasons for your choice: 
+ -Scalability and Flexibility: Lựa chọn dịch vụ dựa trên đám mây và kiến trúc dịch vụ vi mô. Các dịch vụ đám mây như AWS hoặc Azure cho phép khả năng mở rộng. Microservice cho phép xây dựng các tính năng dưới dạng các thành phần riêng biệt, cho phép cập nhật mà không ảnh hưởng đến toàn bộ hệ thống.
+
+ -Containerization (Docker): Các container cho phép triển khai và mở rộng quy mô dễ dàng. Chúng đảm bảo tính nhất quán trên nhiều môi trường khác nhau (phát triển, thử nghiệm, sản xuất) và hợp lý hóa việc sử dụng tài nguyên.
+
+ -Serverless Architecture: Tận dụng điện toán phi máy chủ (Ví dụ: AWS Lambda, Azure Functions) cho các chức năng cụ thể. Điều này có thể giảm chi phí vận hành bằng cách chỉ trả tiền cho mức sử dụng thực tế và quản lý cơ sở hạ tầng trừu tượng.
