@@ -1,0 +1,52 @@
+
+<form id="userForm">
+    <input type="number" id="id" name="id" placeholder="ID">
+    <input type="text" id="name" name="name" placeholder="Username">
+    <input type="text" id="qty" name="qty" placeholder="Quantity">
+    <input type="text" id="delivery" name="delivery" placeholder="OrderDelivery">
+    <input type="text" id="address" name="address" placeholder="OrderAddress">
+    <input type="text" id="phone" name="phone" placeholder="PhoneNumber">
+    <button type="submit">Lưu</button>
+</form>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#userForm").submit(function (e) {
+            e.preventDefault();
+
+            var ItemCode = $("#id").val();
+            var ItemName = $("#name").val();
+            var ItemQty = $("#qty").val();
+            var OrderDelivery = $("#delivery").val();
+            var OrderAddress = $("#address").val();
+            var PhoneNumber = $("#phone").val();
+
+            var data = {
+                ItemCode: ItemCode,
+                ItemName: ItemName,
+                ItemQty: ItemQty,
+                OrderDelivery: OrderDelivery,
+                OrderAddress: OrderAddress,
+                PhoneNumber: PhoneNumber
+            };
+            console.log(data);
+            $.ajax({
+                url: 'https://localhost:7287/api/Orders/PutOrder/' + ItemCode,
+                type: 'PUT',
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(data),
+                success: function (response) {
+                    console.log(response);
+                },
+                success: function (response) {
+                    alert("Dữ liệu đã được lưu.");
+                },
+                error: function () {
+                    alert('Lỗi khi gửi yêu cầu đến API.');
+                }
+            });
+        });
+    });
+</script>
