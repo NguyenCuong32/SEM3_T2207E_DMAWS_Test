@@ -1,7 +1,19 @@
 ﻿using examTranHien;
 using Microsoft.EntityFrameworkCore;
 
+//cors
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
+//cors
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+
+                      });
+});
 
 // Add services to the container.
 
@@ -23,6 +35,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+//cors
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthorization();
 

@@ -1,0 +1,11 @@
+﻿câu 1.(5 points) Based on the chart above, analyze the problem from the perspective of a
+software developer, choosing technology to meet user needs that increase or decrease
+over time while saving construction costs to build, operating and maintain systems for
+businesses. Give at least 3 reasons for your choice.
+
+Bài làm:
+Theo e, ở dự án này mình sẽ dùng công nghệ asp.net api để viết api , độc lập với phần FE, dùng SQL databases của Azure để lưu dữ liệu, publish a . vì:
+-shop này là shop bán lẻ có chi nhánh trên toàn quốc, nên có thể mỗi chi nhánh có 1 website riêng để giới thiệu, tuỳ chỉnh phù hợp với đặc điểm địa phương;
+-tách được FE,BE thuận tiện cho việc code và bảo trì hệ thống
+-chi phí sử dụng SQL databases của Azure có thể tuỳ chỉnh với dung lượng db của công ty, Azure là công ty  top 3 toàn cầu trong lĩnh vực cloud nên có độ uy tín, an toàn
+

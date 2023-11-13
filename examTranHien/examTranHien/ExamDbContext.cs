@@ -9,7 +9,6 @@ namespace examTranHien
 		public ExamDbContext(DbContextOptions<ExamDbContext>options):base(options)
 		{
 		}
-		public DbSet<Class> Class { get; set; }
-		public DbSet<Student> Student { get; set; }
+		public DbSet<Order> OrderTbl { get; set; }
 	}
 }
