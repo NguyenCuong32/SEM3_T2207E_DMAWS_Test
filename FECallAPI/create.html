@@ -24,17 +24,17 @@
             </div>
             <div class="mb-3 mt-3">
                 <label for="address">orderDelivery</label>
-                <input type="number" class="form-control" id="orderDelivery" placeholder="Enter orderDelivery"
+                <input type="text" class="form-control" id="orderDelivery" placeholder="Enter orderDelivery"
                     name="orderDelivery">
             </div>
             <div class="mb-3 mt-3">
                 <label for="address">orderAddress</label>
-                <input type="number" class="form-control" id="orderAddress" placeholder="Enter orderAddress"
+                <input type="text" class="form-control" id="orderAddress" placeholder="Enter orderAddress"
                     name="orderAddress">
             </div>
             <div class="mb-3 mt-3">
                 <label for="address">phoneNumber</label>
-                <input type="number" class="form-control" id="phoneNumber" placeholder="Enter phoneNumber"
+                <input type="text" class="form-control" id="phoneNumber" placeholder="Enter phoneNumber"
                     name="phoneNumber">
             </div>
 
@@ -61,7 +61,7 @@
             $.ajax({
                 type: "POST",
                 contentType: "application/json; charset=utf-8",
-                url: "https://web-a6jxeqwwgmey6.azurewebsites.net/api/Order/PostOrder",
+                url: "https://localhost:7263/api/Order/PostOrder",
 
                 data: JSON.stringify(data),
                 success: function (response) {
