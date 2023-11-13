@@ -28,9 +28,8 @@ public class OrderRepository : IOderRepository
     {
         if (id == model.ItemCode)
         {
-            var order = _context.OrderTbls.Update(model);
+            _context.OrderTbls.Update(model);
             await _context.SaveChangesAsync();
-            
         }
     }
 
