@@ -12,19 +12,30 @@
 
 <body>
     <div class="container mt-3">
-        <h2> Thêm User</h2>
+        <h2> Thêm Order</h2>
         <form>
             <div class="mb-3 mt-3">
                 <label for="name">Tên</label>
-                <input type="text" class="form-control" id="itemCode" placeholder="Enter name" name="itemCode">
+                <input type="text" class="form-control" id="itemName" placeholder="Enter name" name="itemName">
             </div>
             <div class="mb-3 mt-3">
-                <label for="address">Địa chỉ</label>
-                <input type="text" class="form-control" id="address" placeholder="Enter address" name="address">
+                <label for="address">itemQty</label>
+                <input type="text" class="form-control" id="itemQty" placeholder="Enter itemQty" name="itemQty">
             </div>
             <div class="mb-3 mt-3">
-                <label for="address">Tuổi</label>
-                <input type="number" class="form-control" id="age" placeholder="Enter age" name="age">
+                <label for="address">orderDelivery</label>
+                <input type="number" class="form-control" id="orderDelivery" placeholder="Enter orderDelivery"
+                    name="orderDelivery">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="address">orderAddress</label>
+                <input type="number" class="form-control" id="orderAddress" placeholder="Enter orderAddress"
+                    name="orderAddress">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="address">phoneNumber</label>
+                <input type="number" class="form-control" id="phoneNumber" placeholder="Enter phoneNumber"
+                    name="phoneNumber">
             </div>
 
             <button type="submit" class="btn btn-primary btn-add">Thêm</button>
@@ -37,18 +48,24 @@
         $(".btn-add").click(function (e) {
             e.preventDefault();
             var data = {
-                itemCode: $("#itemCode").val(),
-                address: $("#address").val(),
-                age: $("#age").val()
+                itemName: $("#itemName").val(),
+                itemQty: $("#itemQty").val(),
+                orderDelivery: $("#orderDelivery").val(),
+                orderAddress: $("#orderAddress").val(),
+
+                phoneNumber: $("#phoneNumber").val()
+
 
             }
             console.log(data);
             $.ajax({
                 type: "POST",
                 contentType: "application/json; charset=utf-8",
-                url: "https://web-a6jxeqwwgmey6.azurewebsites.net/api/Order",
+                url: "https://web-a6jxeqwwgmey6.azurewebsites.net/api/Order/PostOrder",
+
                 data: JSON.stringify(data),
                 success: function (response) {
+                    console.log(response);
                     Swal.fire(
                         'Success!',
                         'Your file has been deleted.',

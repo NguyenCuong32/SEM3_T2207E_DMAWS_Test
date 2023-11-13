@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 //cors
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+//
 var builder = WebApplication.CreateBuilder(args);
 //cors
 builder.Services.AddCors(options =>

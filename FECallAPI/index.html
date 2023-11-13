@@ -18,7 +18,10 @@
                     <th>Id</th>
                     <th>ItemName</th>
                     <th>itemQty</th>
-                    <th>Age</th>
+                    <th>orderDelivery</th>
+                    <th>orderAddress</th>
+                    <th>phoneNumber</th>
+
                     <th>Xử lý</th>
                 </tr>
             </thead>
@@ -33,7 +36,7 @@
         $.ajax({
             type: "GET",
             contentType: "application/json; charset=utf-8",
-            url: "https://web-a6jxeqwwgmey6.azurewebsites.net/api/Order",
+            url: "https://localhost:7263/api/Order/GetOrderTbl",
 
             success: function (response) {
                 var strResult = "";
@@ -43,7 +46,10 @@
                     <td>${element.itemCode}</td>
                     <td>${element.itemName}</td>
                     <td>${element.itemQty}</td>
-                    <td>${element.age}</td>
+                    <td>${element.orderDelivery}</td>
+                    <td>${element.orderAddress}</td>
+                    <td>${element.phoneNumber}</td>
+
                     <td>
                         <a type="button" class="btn btn-primary" href="update.html?id=${element.itemCode}">Sửa</a>
                         <button type="button" class="btn btn-danger" onclick="Delete(${element.itemCode})">Xoá</button>
@@ -56,7 +62,7 @@
             }
         });
     </script>
-    <script>
+    <!-- <script>
         function Delete(id) {
             Swal.fire({
                 title: 'Are you sure?',
@@ -89,7 +95,7 @@
             })
 
         }
-    </script>
+    </script> -->
 </body>
 
 </html>
