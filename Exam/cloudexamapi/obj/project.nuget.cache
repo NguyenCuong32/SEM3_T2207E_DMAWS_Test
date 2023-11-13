@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i6dPbJrrwH1U67QoS4Ae69OvV3tZUvhFoaP5KoN03E1sXBZTkNHvtANrqPJP9bnzUizqN1cx81UI3WZot8+FXw==",
+  "dgSpecHash": "7Q0H6bxc6oi0fgQEpRzNLG7RwUtYqPnoZTtll+STKjQvkqpq/AEVQIpEe42CeRzpJQCabZxwM/anv7UBux48jg==",
   "success": true,
-  "projectFilePath": "D:\\FPT phan mem\\T2207E\\Cloud\\Exam\\cloudexamapi\\cloudexamapi.csproj",
+  "projectFilePath": "D:\\FPT phan mem\\T2207E\\Cloud\\SEM3_T2207E_DMAWS_Test\\Exam\\cloudexamapi\\cloudexamapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

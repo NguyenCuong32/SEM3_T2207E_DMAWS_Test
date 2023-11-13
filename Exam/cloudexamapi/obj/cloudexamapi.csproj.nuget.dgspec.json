@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT phan mem\\T2207E\\Cloud\\Exam\\cloudexamapi\\cloudexamapi.csproj": {}
+    "D:\\FPT phan mem\\T2207E\\Cloud\\SEM3_T2207E_DMAWS_Test\\Exam\\cloudexamapi\\cloudexamapi.csproj": {}
   },
   "projects": {
-    "D:\\FPT phan mem\\T2207E\\Cloud\\Exam\\cloudexamapi\\cloudexamapi.csproj": {
+    "D:\\FPT phan mem\\T2207E\\Cloud\\SEM3_T2207E_DMAWS_Test\\Exam\\cloudexamapi\\cloudexamapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT phan mem\\T2207E\\Cloud\\Exam\\cloudexamapi\\cloudexamapi.csproj",
+        "projectUniqueName": "D:\\FPT phan mem\\T2207E\\Cloud\\SEM3_T2207E_DMAWS_Test\\Exam\\cloudexamapi\\cloudexamapi.csproj",
         "projectName": "cloudexamapi",
-        "projectPath": "D:\\FPT phan mem\\T2207E\\Cloud\\Exam\\cloudexamapi\\cloudexamapi.csproj",
+        "projectPath": "D:\\FPT phan mem\\T2207E\\Cloud\\SEM3_T2207E_DMAWS_Test\\Exam\\cloudexamapi\\cloudexamapi.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT phan mem\\T2207E\\Cloud\\Exam\\cloudexamapi\\obj\\",
+        "outputPath": "D:\\FPT phan mem\\T2207E\\Cloud\\SEM3_T2207E_DMAWS_Test\\Exam\\cloudexamapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

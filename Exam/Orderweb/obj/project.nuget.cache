@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BPDG14tnbP58QsjvIw1TaYLghu5RxGZxGo36lEp3XllPyU+q6uzxCWtfHpnLBaQyGz1XC0ch30CRarcuCg7yFA==",
+  "dgSpecHash": "qsCkfWoR1dnL/RH43ygFoHIZsXnUA7Oknvl0YzgJ9ZUjXJ0oQabpSP4vr42sM714UG4bBaPn56ZOawwo185sQg==",
   "success": true,
-  "projectFilePath": "D:\\FPT phan mem\\T2207E\\Cloud\\Exam\\Orderweb\\Orderweb.csproj",
+  "projectFilePath": "D:\\FPT phan mem\\T2207E\\Cloud\\SEM3_T2207E_DMAWS_Test\\Exam\\Orderweb\\Orderweb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

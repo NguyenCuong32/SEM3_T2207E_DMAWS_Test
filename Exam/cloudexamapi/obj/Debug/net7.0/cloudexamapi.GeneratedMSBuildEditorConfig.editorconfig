@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = cloudexamapi
 build_property.RootNamespace = cloudexamapi
-build_property.ProjectDir = D:\FPT phan mem\T2207E\Cloud\Exam\cloudexamapi\
+build_property.ProjectDir = D:\FPT phan mem\T2207E\Cloud\SEM3_T2207E_DMAWS_Test\Exam\cloudexamapi\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\FPT phan mem\T2207E\Cloud\Exam\cloudexamapi
+build_property.MSBuildProjectDirectory = D:\FPT phan mem\T2207E\Cloud\SEM3_T2207E_DMAWS_Test\Exam\cloudexamapi
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/FPT phan mem/T2207E/Cloud/Exam/cloudexamapi/Views/Home/Index.cshtml]
+[D:/FPT phan mem/T2207E/Cloud/SEM3_T2207E_DMAWS_Test/Exam/cloudexamapi/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT phan mem/T2207E/Cloud/Exam/cloudexamapi/Views/Home/Privacy.cshtml]
+[D:/FPT phan mem/T2207E/Cloud/SEM3_T2207E_DMAWS_Test/Exam/cloudexamapi/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT phan mem/T2207E/Cloud/Exam/cloudexamapi/Views/Shared/Error.cshtml]
+[D:/FPT phan mem/T2207E/Cloud/SEM3_T2207E_DMAWS_Test/Exam/cloudexamapi/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT phan mem/T2207E/Cloud/Exam/cloudexamapi/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FPT phan mem/T2207E/Cloud/SEM3_T2207E_DMAWS_Test/Exam/cloudexamapi/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT phan mem/T2207E/Cloud/Exam/cloudexamapi/Views/_ViewImports.cshtml]
+[D:/FPT phan mem/T2207E/Cloud/SEM3_T2207E_DMAWS_Test/Exam/cloudexamapi/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT phan mem/T2207E/Cloud/Exam/cloudexamapi/Views/_ViewStart.cshtml]
+[D:/FPT phan mem/T2207E/Cloud/SEM3_T2207E_DMAWS_Test/Exam/cloudexamapi/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT phan mem/T2207E/Cloud/Exam/cloudexamapi/Views/Shared/_Layout.cshtml]
+[D:/FPT phan mem/T2207E/Cloud/SEM3_T2207E_DMAWS_Test/Exam/cloudexamapi/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5eygapl28f
