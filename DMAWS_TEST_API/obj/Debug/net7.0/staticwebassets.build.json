@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Qz/WsEH39y2z95pOvVtrWYhbXH2YrUn60qOTNiE1WoY=",
+  "Source": "DMAWS_TEST_API",
+  "BasePath": "_content/DMAWS_TEST_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
