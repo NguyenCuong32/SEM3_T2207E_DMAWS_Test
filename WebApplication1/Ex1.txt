@@ -1,0 +1,17 @@
+﻿EX 1: A retail company with a chain of stores across the United States needs to build
+an online ordering and shopping website to increase revenue and profits. Based on
+historical sales data and analysis by economic experts at the company, the company has
+produced a relationship chart of shopping demand at stores by month of the year (In
+November has an important event is Black Friday). Below is the chart.
+
+Bài Làm: 
+1. Thông qua các dự liệu được đưa ra trên biểu đồ, ta có thể thấy, doanh số bán hàng trong các tháng ko đồng đều.
+Đặc biệt là tháng 11 có sự kiện Black Friday, khiến doanh thu tăng vượt trội. Chính vì thế, cần có một hệ thống 
+hoạt động một cách trơn tru nhất có thể để đảm bảo khách hàng có trải nghiệm mua sắm tốt nhất, đồng thời cũng  giúp cho 
+của hàng có thể hoạt động tốt nhất.
+2. Giải pháp được đưa ra:
+	Nên lựa chọn sử dụng công nghệ điện toán đám mây để mở rộng dữ liệu
+	Vì:
+	- Công nghệ điện toán đám mây có thể lưu trữ dữ liệu một cách linh hoạt, vì theo biểu đồ thì doanh thu luôn biến thiên, ko đồng đều theo từng tháng
+	- dễ dàng lưu trữ
+	- tính bảo mật cao
